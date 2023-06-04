@@ -1,9 +1,13 @@
-
+import Sidebar from "@/components/Sidebar/Sidebar";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      TWITTER CLONE
+    <main className="flex min-h-screen max-w-7xl mx-auto">
+      <Sidebar />
+
+      {/* Feed */}
+
+      {/* Widget */}
     </main>
   );
 }
